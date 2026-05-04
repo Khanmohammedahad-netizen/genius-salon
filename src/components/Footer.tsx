@@ -43,25 +43,27 @@ export default function Footer() {
         <div>
           <h4 className="text-white font-serif text-lg mb-6">Connect</h4>
           <div className="flex gap-4 mb-8">
-            <div className="w-10 h-10 rounded-full glass flex items-center justify-center text-white/60 hover:text-gold transition-all">
+            <div className="w-10 h-10 rounded-full glass flex items-center justify-center text-white/60 hover:text-gold transition-all cursor-pointer">
               <Globe size={18} />
             </div>
-            <div className="w-10 h-10 rounded-full glass flex items-center justify-center text-white/60 hover:text-gold transition-all">
+            <a 
+              href="https://wa.me/916303927238" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="w-10 h-10 rounded-full glass flex items-center justify-center text-white/60 hover:text-gold transition-all"
+            >
               <MessageSquare size={18} />
-            </div>
-            <div className="w-10 h-10 rounded-full glass flex items-center justify-center text-white/60 hover:text-gold transition-all">
+            </a>
+            <a 
+              href="tel:+916303927238"
+              className="w-10 h-10 rounded-full glass flex items-center justify-center text-white/60 hover:text-gold transition-all"
+            >
               <Phone size={18} />
-            </div>
+            </a>
           </div>
-          <p className="text-white/40 text-[10px] uppercase tracking-widest mb-2">Subscribe to our newsletter</p>
-          <div className="flex">
-            <input 
-              type="email" 
-              placeholder="Your Email" 
-              className="bg-white/5 border border-white/10 px-4 py-2 text-sm text-white focus:outline-none focus:border-gold w-full"
-            />
-            <button className="bg-gold text-black px-4 py-2 text-xs font-bold uppercase tracking-widest">Join</button>
-          </div>
+          <p className="text-white/60 text-sm leading-relaxed">
+            Follow us for the latest transformations and styling tips.
+          </p>
         </div>
       </div>
       

@@ -32,7 +32,7 @@ export default function Booking() {
               <Phone size={24} />
             </div>
             <p className="text-white/40 text-[10px] uppercase tracking-widest mb-2">Call Us</p>
-            <p className="text-white font-serif text-xl tracking-wide">+91 98765 43210</p>
+            <p className="text-white font-serif text-xl tracking-wide">+91 63039 27238</p>
           </motion.div>
 
           <motion.div
@@ -77,7 +77,7 @@ export default function Booking() {
 
         <div className="mt-20 flex justify-center">
           <a
-            href="https://wa.me/919876543210"
+            href="https://wa.me/916303927238"
             target="_blank"
             rel="noopener noreferrer"
             className="px-12 py-5 bg-gold hover:bg-gold-dark text-black font-bold uppercase tracking-[0.3em] transition-all duration-300 transform hover:scale-105 shadow-2xl shadow-gold/20"
